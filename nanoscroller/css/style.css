@@ -1,0 +1,14 @@
+.nano .nano-content {
+  padding: 20px;
+}
+
+.nano .nano-pane {
+  background: #a7a7a7;
+  margin: 5px;
+  right: -2px;
+  width: 6px;
+}
+
+.nano .nano-slider {
+  background: #111;
+}

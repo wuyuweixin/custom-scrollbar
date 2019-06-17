@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * { margin: 0; padding: 0;font-size: 14px;}
+
+        body {}
+
+        .part1 {width: 225px;height: 140px;overflow: hidden;border: 1px solid #ccc; float: left;}
+
+        .item {position: relative;height: 140px;overflow: hidden;overflow-y: hidden;outline: none; line-height: 20px;}
+
+        .part2 { float: left;width: 300px;margin-left: 20px;height: 300px;border: 1px solid #ccc;overflow: hidden; background: rgb(42, 46, 52); color: #c4c4c4;}
+
+        .part2 .item {height: 300px;line-height: 30px;}
+
+        .part2 li { padding-left: 10px;font-family: "microsoft yahei"}
+    </style>
+    <script src="jquery-1.9.1.js"></script>
+    <script src="divscroll.js"></script>
+</head>
+<body>
+<div class="part2">
+    <div class="item" tabindex="5001" style="overflow-y: hidden; outline: none;">
+        <ul>
+            <li>3123123123</li>
+            <li>123213123123</li>
+            <li>12321312312</li>
+            <li>1312312312312</li>
+            <li>2131231231231</li>
+            <li>123123123123</li>
+            <li>123213213</li>
+            <li>312312312</li>
+            <li>123213123</li>
+            <li>13123213</li>
+            <li>12321323213</li>
+            <li>123123213</li>
+            <li>13213213</li>
+            <li>gfdgfdgdfgdfg</li>
+            <li>fdgfdgfdgfdgdfg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+            <li>gdfgdfgfdgdgdg</li>
+        </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $('.item').perfectScrollbar();
+    });
+</script>
+</body>
+</html>

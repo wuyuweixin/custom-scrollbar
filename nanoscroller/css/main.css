@@ -1,0 +1,10 @@
+#main {
+  background: #bba;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border-top: 1px rgba(255, 255, 255, .6) solid;
+  height: 500px;
+  margin: auto;
+  width: 500px;
+}
